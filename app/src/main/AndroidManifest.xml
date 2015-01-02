@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mo.bandit_v1" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo2"
+        android:label="BandIT"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="BandIT" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="SignUp" >
+        </activity>
+        <activity
+            android:name=".MainMenuActivity"
+            android:label="Menu" >
+        </activity>
+        <activity
+            android:name=".CreateBandActivity"
+            android:label="Create Band" >
+        </activity>
+        <activity
+            android:name=".EditProfilActivity"
+            android:label="Edit Band" >
+        </activity>
+        <activity
+            android:name=".CreateEventActivity"
+            android:label="Create Event" >
+        </activity>
+        <activity
+            android:name=".EditBandActivity"
+            android:label="Edit Band" >
+        </activity>
+        <activity
+            android:name=".BandActivity"
+            android:label="Band" >
+        </activity>
+        <activity
+            android:name=".SearchActivity"
+            android:label="Search" >
+        </activity>
+        <activity
+            android:name=".EventActivity"
+            android:label="@string/title_activity_event" >
+        </activity>
+        <activity
+            android:name=".MessageActivity"
+            android:label="@string/title_activity_message" >
+        </activity>
+        <activity
+            android:name=".MessageDetailActivity"
+            android:label="@string/title_activity_message_detail" >
+        </activity>
+    </application>
+
+</manifest>
